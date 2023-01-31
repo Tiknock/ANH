@@ -1,0 +1,71 @@
+@font-face {
+    src: url(./fonts/Raleway/Raleway-VariableFont_wght.ttf);
+    font-family: Raleway;
+}
+@font-face {
+    src: url(./fonts/Inconsolata/Inconsolata-VariableFont_wdth\,wght.ttf);
+    font-family: Inconsolata;
+}
+* {
+    padding: 0;
+    margin: 0;
+    /* overflow: hidden; */
+    scroll-behavior: smooth;
+    list-style: none;
+}
+header {
+    height: 100vh;
+}
+nav {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    padding: 10px;
+    background: rgba(0,0,0,1);
+}
+nav img {
+    width: 4%;
+    margin: auto auto auto 20px;
+    color: whitesmoke;
+}
+ul {
+    font-weight: 200;
+    font-family: Raleway, sans-serif;
+    width: 60%;
+    margin: auto 0 auto auto;
+    display: flex;
+    justify-content: space-around;
+}
+li {
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    text-shadow: 1px 1px #ffffff53
+}
+a:hover, .active {
+    font-weight: 400;
+}
+h1 {
+    font-family: Inconsolata, serif;
+    display: flex;
+    font-size: 4rem;
+    font-weight: 400;
+    width: 100%;
+    margin: 30px auto;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-start;
+    color: black;
+}
+#map {
+    background: #fff;
+    height: 100vh;
+}
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 70px;
+}
